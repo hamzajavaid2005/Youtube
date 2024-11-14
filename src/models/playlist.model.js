@@ -20,3 +20,7 @@ const playlistSchema = new Schema({
         ref: "User",
     },
 });
+
+const Playlist = mongoose.model("Playlist", playlistSchema);
+
+export default Playlist;
